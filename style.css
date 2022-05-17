@@ -4,6 +4,8 @@ body{
     margin:0;
     width: 100%;
     min-width: fit-content;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -11,6 +13,10 @@ h1{
     font-size: 48px;
     color:#F9FAF8;
     margin:0;
+}
+p{
+    margin:0;
+    padding:10px 0;
 }
 
 /* Section One */
@@ -52,7 +58,7 @@ h1{
     color:#F9FAF8;
     border:0;
     border-radius: 5px;
-    padding:10px 20px;
+    padding:10px 30px;
 }
 .section-1-image{
     max-width: 500px;
@@ -70,7 +76,7 @@ h1{
 /* Section Two */
 .section-2{
     color: #555;
-    padding: 5% 15%;
+    padding: 5% 10%;
     text-align: center;
     box-sizing: border-box;
     
@@ -100,7 +106,7 @@ h1{
 /* Section Three */
 .section-3{
     background: #E5E7EB;
-    padding:5% 15%;
+    padding:5% 25%;
 }
 
 .section-3 p{
@@ -111,4 +117,35 @@ h1{
 
 .author{
     text-align: right;
+}
+
+/* Section Four */
+.section-4{
+    padding:5% 10%;
+}
+.cta{
+    width:100%;
+    background:#3882F6;
+    color:#fff;
+    padding: 40px 120px;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color:#E5E7EB;
+}
+
+.cta h2{
+    margin:0;
+    padding:0;
+    color: #F9FAF8;
+}
+
+/* Footer */
+.footer{
+    background: #1F2937;
+    color:#E5E7EB;
+    padding:40px 0;
+    text-align: center;
 }
