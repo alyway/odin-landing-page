@@ -36,6 +36,7 @@ h1{
     gap:40px;
 
 }
+
 .section-1-content{
     display: flex;
     gap: 20px;
@@ -52,6 +53,9 @@ h1{
     border:0;
     border-radius: 5px;
     padding:10px 20px;
+}
+.section-1-image{
+    max-width: 500px;
 }
 .section-1-image img{
     object-fit: cover;
@@ -91,4 +95,20 @@ h1{
     width:200px;
     height: 200px;
     border-radius: 10px;
+}
+
+/* Section Three */
+.section-3{
+    background: #E5E7EB;
+    padding:5% 15%;
+}
+
+.section-3 p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    text-align: right;
 }
