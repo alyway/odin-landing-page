@@ -6,6 +6,7 @@ body{
     min-width: fit-content;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -13,6 +14,7 @@ h1{
     font-size: 48px;
     color:#F9FAF8;
     margin:0;
+    font-weight: 0;
 }
 p{
     margin:0;
@@ -25,14 +27,13 @@ p{
     color:#Efe7eB;
     padding:0 10%;
     min-height: 50vh;
-    width: 100%;
     box-sizing: border-box;
  
 }
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding:20px;
+    padding:20px 0;
 }
 .navbar ul{
     display: flex;
@@ -45,20 +46,25 @@ p{
 
 .section-1-content{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     padding:50px 0;
 }
+
 .section-1-content > *{
     flex: 1;
-}
+} 
 
+
+
+
+ 
 .section-1 button{
     background:#3882F6;
     color:#F9FAF8;
     border:0;
     border-radius: 5px;
-    padding:10px 30px;
+    padding:10px 40px;
 }
 .section-1-image{
     max-width: 500px;
@@ -85,11 +91,13 @@ p{
 .section-2 h2{
     color:#1F2937;
     font-size: 36px;
+    font-weight: 900;
 }
 .cards{
     display: flex;
     gap: 40px;
     justify-content: center;
+    flex-flow: row wrap;
 }
 
 .card{
@@ -112,11 +120,12 @@ p{
 .section-3 p{
     font-size: 36px;
     font-style: italic;
+    font-weight: ;
     color: #1F2937;
 }
 
 .author{
-    text-align: right;
+    text-align: right;font-weight: 900;
 }
 
 /* Section Four */
@@ -134,6 +143,7 @@ p{
     justify-content: space-between;
     align-items: center;
     color:#E5E7EB;
+    flex-flow: row wrap;
 }
 
 .cta h2{
@@ -142,10 +152,27 @@ p{
     color: #F9FAF8;
 }
 
+.cta-button button{
+    border:1px solid #E5E7EB;
+    background: transparent;
+    outline: none;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding:10px 40px;
+    
+}
+
 /* Footer */
 .footer{
     background: #1F2937;
     color:#E5E7EB;
     padding:40px 0;
     text-align: center;
+}
+
+/* Making it a little Responsive */
+
+@media screen and (max-width: 800px) {
+
+    
 }
